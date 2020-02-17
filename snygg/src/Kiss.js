@@ -1,6 +1,6 @@
 import React from 'react';
-import hothot from './hothot.png'
 import kiss from './kiss.svg'
+import heart from "./heart-filled.svg";
 import './App.css';
 
 class Kiss extends React.Component {
@@ -13,7 +13,8 @@ class Kiss extends React.Component {
     render() {
         return (
             <>
-                <img className='kiss' style={{left: this.props.position.x, top: this.props.position.y}} src={kiss}></img>    
+                <img className='kiss' style={{left: this.props.position.x, top: this.props.position.y}} src={kiss}></img> 
+                <img className='kiss-heart' style={{left: this.props.position.x, top: this.props.position.y}} src={heart}></img> 
             </>
         )
     }
