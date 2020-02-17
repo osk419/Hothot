@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6472fcd3a9c8e6eb00719c024adb6ccf",
+    "revision": "5ee64ae3205e08d0b613b586cb5a43c7",
     "url": "/Hothot/index.html"
   },
   {
