@@ -1,0 +1,185 @@
+.App {
+  text-align: center;
+  cursor: url("./kiss.svg") 16 16, auto;
+}
+
+.App-header {
+  background-color: darkred;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  overflow: hidden;
+  user-drag: none; 
+user-select: none;
+-moz-user-select: none;
+-webkit-user-drag: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+
+.heart {
+  float: left;
+  position: fixed;
+  animation: movedown 5s ease infinite;
+  user-drag: none; 
+user-select: none;
+-moz-user-select: none;
+-webkit-user-drag: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+
+@keyframes movedown {
+  from {
+    transform: scale(0);
+    opacity: 1;
+  }
+  to {
+    transform: scale(5);
+    opacity: 0;
+  }
+}
+
+.hothot {
+  animation: hotanim 1.5686s linear infinite;
+  position: absolute;
+  user-drag: none; 
+user-select: none;
+-moz-user-select: none;
+-webkit-user-drag: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+
+.hothot-glow {
+  animation: hotanim2 1.5686s linear infinite;
+  filter: brightness(0) invert(1) blur(15px) ;
+  position: fixed;
+  user-drag: none; 
+user-select: none;
+-moz-user-select: none;
+-webkit-user-drag: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+
+.kiss {
+  position: fixed;
+  z-index: 2;
+  pointer-events: none;
+
+  user-drag: none; 
+user-select: none;
+-moz-user-select: none;
+-webkit-user-drag: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+/* 
+@keyframes hotanim2 {
+  0% {
+    transform: scale(0.225) scaleX(-1);
+  }
+  25% {
+    transform: scale(0.675) scaleX(-1);
+  }
+  50% {
+    transform: scale(0.225) scaleX(-1);
+  }
+  50.1% {
+    transform: scale(0.225) scaleX(1);
+  }
+  75% {
+    transform: scale(0.675) scaleX(1);
+  }
+  99.9% {
+    transform: scale(0.225) scaleX(1);
+  }
+  100% {
+    transform: scale(0.225) scaleX(-1);
+  }
+}
+
+@keyframes hotanim {
+  0% {
+    transform: scale(0.2) scaleX(-1);
+  }
+  25% {
+    transform: scale(0.6) scaleX(-1);
+  }
+  50% {
+    transform: scale(0.2) scaleX(-1);
+  }
+  50.1% {
+    transform: scale(0.2) scaleX(1);
+  }
+  75% {
+    transform: scale(0.6) scaleX(1);
+  }
+  99.9% {
+    transform: scale(0.2) scaleX(1);
+  }
+  100% {
+    transform: scale(0.2) scaleX(-1);
+  }
+} */
+
+
+@keyframes hotanim2 {
+  0% {
+    transform: scale(0.675) scaleX(-1);
+  }
+  25% {
+    transform: scale(0.675) scaleX(-1);
+  }
+  50% {
+    transform: scale(0.675) scaleX(-1);
+  }
+  50.01% {
+    transform: scale(0.675) scaleX(1);
+  }
+  75% {
+    transform: scale(0.675) scaleX(1);
+  }
+  99.99% {
+    transform: scale(0.675) scaleX(1);
+  }
+  100% {
+    transform: scale(0.675) scaleX(-1);
+  }
+}
+
+@keyframes hotanim {
+  0% {
+    transform: scale(0.6) scaleX(-1);
+  }
+  25% {
+    transform: scale(0.6) scaleX(-1);
+  }
+  50% {
+    transform: scale(0.6) scaleX(-1);
+  }
+  50.01% {
+    transform: scale(0.6) scaleX(1);
+  }
+  75% {
+    transform: scale(0.6) scaleX(1);
+  }
+  99.99% {
+    transform: scale(0.6) scaleX(1);
+  }
+  100% {
+    transform: scale(0.6) scaleX(-1);
+  }
+} 
+
+
+svg {
+  backface-visibility: hidden;
+  transform: translateZ(0) scale(1.0, 1.0);
+  transform: translateZ(0);
+}
