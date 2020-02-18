@@ -3,7 +3,6 @@ import Heart from './Heart.js'
 import './App.css';
 
 const nbrOfHearts = 663552000;
-const size = 24
 const width = window.screen.width * window.devicePixelRatio
 const height = window.screen.height * window.devicePixelRatio
 class HeartGenerator extends React.Component {

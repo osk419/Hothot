@@ -5,13 +5,14 @@ import "./App.css";
 
 const width = window.screen.width * window.devicePixelRatio;
 const height = window.screen.height * window.devicePixelRatio;
+const size = 240
 
 class Heart extends React.Component {
     constructor(props) {
         super();
         this.state = {
-            left: Math.random() * width,
-            top: Math.random() * height,
+            left: Math.random() * width - 240,
+            top: Math.random() * height -240,
             scale: 0
         };
     }

@@ -39,7 +39,7 @@ user-select: none;
     opacity: 1;
   }
   to {
-    transform: scale(5);
+    transform: scale(0.5);
     opacity: 0;
   }
 }
@@ -93,7 +93,8 @@ animation: kissfade 1s forwards
   position: fixed;
   z-index: 2;
   pointer-events: none;
-
+  width: 24px;
+  height: 24px;
   user-drag: none; 
 user-select: none;
 -moz-user-select: none;
