@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5ee64ae3205e08d0b613b586cb5a43c7",
+    "revision": "0e5cf816ecc664d704c19fb8983af88f",
     "url": "/Hothot/index.html"
   },
   {
-    "revision": "ba8c1a7508e459a2fb9a",
-    "url": "/Hothot/static/css/main.e0e3a233.chunk.css"
+    "revision": "fb8691ce9913bea3b44a",
+    "url": "/Hothot/static/css/main.682ac7f5.chunk.css"
   },
   {
     "revision": "68684699dbb825ea6bd3",
@@ -16,20 +16,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Hothot/static/js/2.b6d122d8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ba8c1a7508e459a2fb9a",
-    "url": "/Hothot/static/js/main.422bff08.chunk.js"
+    "revision": "fb8691ce9913bea3b44a",
+    "url": "/Hothot/static/js/main.0b00e48a.chunk.js"
   },
   {
     "revision": "d854a159ff10ff5735af",
     "url": "/Hothot/static/js/runtime-main.3e4dd1f1.js"
   },
   {
-    "revision": "10b8861c3e0974967924f68fe24cd196",
-    "url": "/Hothot/static/media/heart-filled.10b8861c.svg"
+    "revision": "957b9b4dc0ebad50c3d42ebf23cd47aa",
+    "url": "/Hothot/static/media/heart-filled.957b9b4d.svg"
   },
   {
-    "revision": "8bd8e7e0073f88d9d62a1f3276636e08",
-    "url": "/Hothot/static/media/heart.8bd8e7e0.svg"
+    "revision": "0b7262d642e7205ee2a733165849f011",
+    "url": "/Hothot/static/media/heart.0b7262d6.svg"
   },
   {
     "revision": "3d51765ded02d577b53416713a6973da",
