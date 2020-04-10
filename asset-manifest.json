@@ -1,26 +1,28 @@
 {
   "files": {
-    "main.css": "/Hothot/static/css/main.682ac7f5.chunk.css",
-    "main.js": "/Hothot/static/js/main.0b00e48a.chunk.js",
-    "main.js.map": "/Hothot/static/js/main.0b00e48a.chunk.js.map",
+    "main.css": "/Hothot/static/css/main.6349814b.chunk.css",
+    "main.js": "/Hothot/static/js/main.81837b5e.chunk.js",
+    "main.js.map": "/Hothot/static/js/main.81837b5e.chunk.js.map",
     "runtime-main.js": "/Hothot/static/js/runtime-main.3e4dd1f1.js",
     "runtime-main.js.map": "/Hothot/static/js/runtime-main.3e4dd1f1.js.map",
-    "static/js/2.b6d122d8.chunk.js": "/Hothot/static/js/2.b6d122d8.chunk.js",
-    "static/js/2.b6d122d8.chunk.js.map": "/Hothot/static/js/2.b6d122d8.chunk.js.map",
+    "static/js/2.455ecfd2.chunk.js": "/Hothot/static/js/2.455ecfd2.chunk.js",
+    "static/js/2.455ecfd2.chunk.js.map": "/Hothot/static/js/2.455ecfd2.chunk.js.map",
     "index.html": "/Hothot/index.html",
-    "precache-manifest.d1872fa83b2e1a3c205b4d3aa527730b.js": "/Hothot/precache-manifest.d1872fa83b2e1a3c205b4d3aa527730b.js",
+    "precache-manifest.04b4dba1fe6dec034915baf5b1ad363e.js": "/Hothot/precache-manifest.04b4dba1fe6dec034915baf5b1ad363e.js",
     "service-worker.js": "/Hothot/service-worker.js",
-    "static/css/main.682ac7f5.chunk.css.map": "/Hothot/static/css/main.682ac7f5.chunk.css.map",
-    "static/js/2.b6d122d8.chunk.js.LICENSE.txt": "/Hothot/static/js/2.b6d122d8.chunk.js.LICENSE.txt",
+    "static/css/main.6349814b.chunk.css.map": "/Hothot/static/css/main.6349814b.chunk.css.map",
+    "static/js/2.455ecfd2.chunk.js.LICENSE.txt": "/Hothot/static/js/2.455ecfd2.chunk.js.LICENSE.txt",
+    "static/media/careless.ogg": "/Hothot/static/media/careless.3d7a7551.ogg",
     "static/media/heart-filled.svg": "/Hothot/static/media/heart-filled.957b9b4d.svg",
     "static/media/heart.svg": "/Hothot/static/media/heart.0b7262d6.svg",
     "static/media/hothot.png": "/Hothot/static/media/hothot.3d51765d.png",
+    "static/media/kiss.mp3": "/Hothot/static/media/kiss.e76323f6.mp3",
     "static/media/kiss.svg": "/Hothot/static/media/kiss.fdcb410f.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.3e4dd1f1.js",
-    "static/js/2.b6d122d8.chunk.js",
-    "static/css/main.682ac7f5.chunk.css",
-    "static/js/main.0b00e48a.chunk.js"
+    "static/js/2.455ecfd2.chunk.js",
+    "static/css/main.6349814b.chunk.css",
+    "static/js/main.81837b5e.chunk.js"
   ]
 }
